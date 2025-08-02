@@ -69,7 +69,7 @@ env = st.slider("Ambiente", 0, 5, 2)
 # Bottone
 if st.button("🔍 Scopri i paesi migliori"):
     try:
-        df = pd.read_csv("df_final.csv")  # deve stare nella stessa repo
+        df = pd.read_csv("dataset_final.csv")  # deve stare nella stessa repo
         user_input = {
             "sex": sex,
             "origin_country": origin_country,
